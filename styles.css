@@ -1,0 +1,273 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+.montserrat-thin {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.dancing-script-bold {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.head{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    font-size: 30px;
+}
+
+.name h1{
+    margin: 0;
+}
+
+
+.search{
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    width: 40%;
+    padding: 0;
+}
+
+.search input{
+    background-color: #ced4da;
+    padding: 10px 0px 10px 10px;
+    width: 80%;
+    height: 50%;
+    border: none;
+    font-size: 15px;
+}
+
+
+.search button{
+    height: 50%;
+    padding: 4px;
+}
+
+.search button img{
+    width: 20px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.login{
+    width: 150px;
+    margin: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    font-size: 15px;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop{ 
+    display: flex;
+}
+
+.shop img{
+    width: 35px;
+    padding: 20px;
+}
+
+
+.nav li{
+    margin: 0px;
+    padding: 0px 40px;
+    list-style: none;
+    height: 40px;
+    display: inline-flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav span{
+    color: transparent;
+    height: 30px;
+    border-left: 0.5px solid rgba(255, 255, 255, 0.712);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.oferts{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: #f9c74f;
+    z-index: -1;
+}
+
+.colorf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-color: #f9844a;
+}
+
+.colorf img{
+    padding-left: 20px;
+    height: 450px;
+}
+
+.first-container{
+    padding-right: 5%;
+    padding-top: 5%;
+    line-height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 30%;
+    font-size: 30px;
+}
+
+.first-container h1, h2{
+    margin: 0 ;
+    width: 100%;
+    line-height: 100px;
+}
+
+.first-container h4 {
+    width: 100%;
+    padding: 0px;
+    height: 30px;
+}
+
+.first-container h1 {
+    margin: 0;
+    height: 150px;
+    width: 100%;
+    padding:0px;
+    font-size: 130px;
+    
+}
+
+.first-container h2{
+    line-height: 0px;
+    margin: 0;
+    display: flex;
+    position: top;
+    justify-content: center;
+    align-items: top;
+    height: 105px;
+    font-size: 180px;
+    color: #f8961e;
+    rotate: -15deg;
+    transform: scale();
+    -webkit-transform: rotateX(45deg) ;
+}
+
+
+.second-container{
+    display: flexbox;
+    padding: 0px;
+    padding-top: 40px;
+    width: 20%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.container1 {
+    display: flexbox;
+    height: 150px;
+    width: 100%;
+    border: 3px solid black;
+    align-items: left;
+    text-align: left;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.container1 h1{
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+h1, h2, h4, span {
+    padding: 0;
+    margin: 0;
+}
+.container2{
+    padding: 0;
+    margin: 0;
+    display: flexbox;
+    height: 150px;
+    width: 100%;
+    border: 4px solid black;
+    align-items: center;
+    text-align: center;   
+    font-size: 45px;
+    line-height: 70px;
+}
+
+.container2 h1{
+    padding: 0;
+    margin: 0;
+}
+
+.for{
+    font-size: 30px;
+}
+
+
+h3{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
